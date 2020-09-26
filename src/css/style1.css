@@ -1,0 +1,296 @@
+* {
+    margin: 0; padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
+
+small {
+display: block;
+line-height: 1.428571429;
+color: #999;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 
+                 'Segoe UI', Roboto, Oxygen, Ubuntu,
+                 Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    user-select: none;
+}
+
+section {
+    background: url("img/road-nature-movement-markup-wallpaper-thumb.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    transition: all 0.6s;
+
+}
+
+
+#heading {
+    color: maroon;
+    text-align: center;
+}
+
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    left: -300px;
+    background: #042331;
+    transition: all 0.6s;
+}
+
+.sidebar header {
+    background: #073850;
+    padding: 17.5px 17.5px;
+    font-size: 21px;
+    font-weight: 600;
+    text-align: left;
+    color: white;
+}
+
+.sidebar ul {
+    line-height: 65px;
+    font-size: 20px;
+}
+
+.sidebar ul li:hover a {
+    padding-left: 30px;
+    color: white;
+}
+
+.sidebar ul li {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar ul li:hover { background: #063044; }
+
+.sidebar ul li a {
+    color: rgb(214, 209, 209);
+    margin-left: 20px;
+    transition: all 0.6s ease;
+}
+
+.sidebar ul li a i { margin-right: 7px; }
+
+input { display: none; }
+
+label #menu {
+    font-size: 20px;
+    position: fixed;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+label #menu {
+    margin: 30px 30px;
+    padding: 10px 15px 10px 15px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: all 1s ease;
+}
+
+
+.sidebar { left: 0; }
+
+label #close { left: 230px; }
+
+section { margin-left: 300px; }
+
+.bookfont {
+    top:200px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: cornsilk;
+    box-sizing: border-box;
+    border: crimson;
+    text-align: center;
+}
+
+.img-text-wrapper .subtitle {
+    transition: 1s;
+    color: transparent;
+    background-color: white;
+    color: black;
+    size: 100px;
+  }
+  
+  
+.img-text-wrapper:hover .subtitle {
+    color: rgb(19, 129, 124);
+    font-weight: 600;
+  }
+
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .portfolio-item-wrapper {
+    position: relative;
+  }
+  
+  .portfolio-img-background1 {
+      background-image: url(img/general_service_checkup.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 350px;
+      width: 100%;
+  }
+
+  .stationservice1 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    background-color: white; 
+
+   
+  }
+
+  .portfolio-img-background2 {
+    background-image: url(img/bikewash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+}
+
+.portfolio-img-background3 {
+    background-image: url(img/bikeengineoil.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+}
+  
+.portfolio-img-background4 {
+    background-image: url(img/airfilter1.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+}
+
+.portfolio-img-background5 {
+    background-image: url(img/brakepad1.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+}
+
+.portfolio-img-background6 {
+    background-image: url(img/clutchservice.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+}
+  .img-text-wrapper {
+    position: absolute;
+    top: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: rgb(22, 22, 21);
+    text-align: justify;
+  }
+
+  .img-text-wrapper ul {
+      text-align: justify;
+      color:rgb(41, 41, 85);
+      position: fixed;
+      font-size: initial;
+      grid-gap: 200px;
+      font-style: oblique;
+    
+  }
+  
+
+.press {
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+	margin-top: 10px;
+}
+
+.book {
+    border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+    margin-top: 10px;
+}
+  
+
+  .image-blur {
+    transition: 1s;
+    filter: brightness(10%);
+  }
+  
+  .img-text-wrapper:hover .press {
+    color:rgb(4, 36, 34);
+    font-weight: 600;
+    text-align: center;
+    
+  }
+  
+  .logo-wrapper img {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .profile-image-wrapper img {
+    width: 100%;
+  }
+  
+  .profile-content-wrapper {
+    padding: 30px;
+  }
+  
+  .profile-content-wrapper h1 {
+    color: lightseagreen;
+  }
+  
+  
